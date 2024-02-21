@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/爱心.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>LIPU FRIENDS</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .navbar{
+      position: relative;
+    }
+    .inp{
+      position: absolute;
+      right: 10%;
+      border-radius: 30px;
+      height: 30px;
+      width: 200px;
+      overflow: hidden;
+      color: white;
+
+    }
+    .inp>input{
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 100%;
+      padding-left: 20px;
+      background: rgb(117 109 109 / 30%);
+      color: white !important;
+      font-size: 14px;
+    }
+    .inp svg{
+      position: absolute;
+      right: 10px;
+      top: 4px;
+      width: 20px;
+      height: 20px;
+    }
+
+    ::placeholder {
+    color: white; /* 更改为你想要的颜色 */
+  }
+
+  .slider-link{
+    border-color: #56382d;
+  }
+
+.newNav{
+  background-color: black;
+  height: 70px;
+}
+
+.newNav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.newNav .container a{
+  color: white;
+}
+
+
+
+.yImg{
+  border-radius: 50% !important;
+}
+  </style>
+
+</head>
+
+<body >
+
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span style="color: #56382d;">
+            join us
+          </span>
+        </a>
+
+        <div class="inp">
+          <input type="text" placeholder="请输入你的关键词" >
+          <svg t="1708398007673" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4224" width="32" height="32"><path d="M797.525 752.267c62.07-72.736 97.28-165.003 97.28-262.187 0.011-223.552-181.184-404.747-404.725-404.747-223.541 0-404.747 181.206-404.747 404.736 0 223.542 181.206 404.758 404.736 404.758a404.693 404.693 0 0 0 118.208-17.547 32 32 0 0 0-18.666-61.216 340.693 340.693 0 0 1-99.542 14.763c-188.181-0.011-340.736-152.566-340.736-340.758 0-188.181 152.555-340.736 340.736-340.736 188.192 0 340.758 152.555 340.758 340.736 0 89.28-35.382 173.696-97.142 237.323a36.992 36.992 0 0 0 0.384 51.925l149.974 149.974a32 32 0 0 0 45.258-45.248L797.525 752.267z" p-id="4225" fill="#ffffff"></path></svg>
+        </div>
+
+        <div class="" id="">
+
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">关于我们</a>
+                <a href="about.html">角色介绍</a>
+                <a href="shop.html">最新产品</a>
+                <a href="blog.html">最新活动</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+  <!-- slider section -->
+  <section class="slider_section position-relative" style="background-color:lightpink;">
+    <div class="slider_bg_box">
+      <img src="images/bg1.jpg" alt="">
+    </div>
+    <div class="slider_bg"></div>
+    <div class="container">
+      <div class="col-md-9 col-lg-8">
+        <div class="detail-box">
+          <h1 style="color: #56382d;">
+            
+            <span  style="color: #56382d;">暹罗厘普</span>
+            <br> LIPU FRIENDS
+          </h1>
+          <p style="color: #56382d;">
+            精神状态极佳的四动物一蔬菜
+          </p>
+          <div>
+            <a href="" class="slider-link" style="color: #56382d;">
+              现在购买
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="newNav">
+    <div class="container">
+      <a href="#a">关于我们</a>
+      <a href="#b">角色介绍</a>
+      <a href="#c">最新产品</a>
+      <a href="#d">最新活动</a>
+      <a href="#e">联系我们</a>
+    </div>
+  </section>
+  <!-- end slider section -->
+   <section class="about_section  ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/合照1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 id="a">
+                关于我们
+              </h2>
+            </div>
+            <p>
+              暹罗厘谱是诞生于2022年9月的新生代IP，是由热烈洒脱，随时发疯的暹罗厘普和邪恶坏小狗比格多栋，外热内冷的兔子秀珍，永远在丧的厌世胡萝卜张田中，没有心眼子的快乐笨蛋鹈鹕小河，组成的精神状态极佳的四动物一蔬菜。
+            </p>
+            <a href="">
+              阅读更多
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+  <!-- blog section -->
+
+  <section class="blog_section ">
+    <div class="heading_container HMax">
+      <h2 id="b">
+      
+        角色介绍
+      </h2>
+    </div>
+    <div class="container">
+     
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/暹罗.jpg" alt="">
+              
+            </div>
+            <div class="detail-box">
+              <h5>
+                暹罗厘普
+              </h5>
+              <p>
+                一只很自信的暹罗猫，最离谱的是暹罗厘普在“2023年暹罗厘普人气赛”中只获得了第四名。厘普的优点就是坦率，它的心事都写在脸上，不会伪装，很自信，永远觉得自己是最好的，从来不会精神内耗。
+              </p>
+              <a href="">
+                相关产品
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/多栋.jpg" alt="">
+        
+            </div>
+            <div class="detail-box">
+              <h5>
+                比格多栋
+              </h5>
+              <p>
+                最酷最可爱的比格犬一只，本年度人气断层的TOP，对它而言人生每一刻都在摆烂。多栋经常不懂客气，应吃尽吃，因为不知道从哪里下口就哪里都尝了尝。比格犬的潜力是无限的，你永远不知道下一个受害者是谁。
+              </p>
+              <a href="">
+                相关产品
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/秀珍.jpg" alt="">
+              
+            </div>
+            <div class="detail-box">
+              <h5>
+                兔子秀珍
+              </h5>
+              <p>
+                一只粉色的兔子，一个优秀的聆听者，常给朋友提供帮助，有时会让人捉摸不透。秀珍和田中是好朋友，秀珍在田中伤心的时会夸奖和鼓励它。但有一次田中发现秀珍在手机里给它的备注是“日中”，田中很伤心。
+              </p>
+              <a href="">
+                相关产品
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="blog_section ">
+    <div class="container">
+      <div class="heading_container">
+      </div>
+      <div class="row">
+      
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/田中.jpg" alt="">
+        
+            </div>
+            <div class="detail-box">
+              <h5>
+                张田中
+              </h5>
+              <p>
+                火柴棍一样的短腿，支撑起橘黄色的倩影，张田中不是纯粹的“丧”，有较为丰富的多愁善感。田中是从超市死里逃生的胡萝卜，有些内向，只跟秀珍玩。
+              </p>
+              <a href="">
+                相关产品
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/小河.jpg" alt="">
+              
+            </div>
+            <div class="detail-box">
+              <h5>
+                鹈鹕小河
+              </h5>
+              <p>
+                一只鹈鹕，走路有学步鞋的声音，经常张着大嘴，小河不在意你是谁，因为小河会叨所有人。不知道从哪飞来的，平时也不说话，有人怀疑它不说话是因为嘴里含着张田中。
+              </p>
+              <a href="">
+                相关产品
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/合照2.jpg" alt="">
+        
+            </div>
+            <div class="detail-box">
+              <h5>
+                合照一张
+              </h5>
+              <p>
+                主角团由四动物一蔬菜组成，因为主角团可爱的精神状态，非常符合当下年轻人的情况，所以深受大家喜爱，被大家亲切地称为“四荤一素”家族。未来会不会有新的宝宝加入我们的大家庭呢？请拭目以待！
+              </p>
+              <!-- <a href="">
+                相关产品
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- end blog section -->
+
+  <!-- shop section -->
+
+  <section class="shop_section layout_padding">
+    <div class="heading_container heading_center HMax">
+      <h2 id="c">
+        最新产品
+      </h2>
+    </div>
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/包包.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  收纳包
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $59
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/sbd.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  鼠标垫
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $30
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/手机支架.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  手机支架
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $20
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/便利贴.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  便利贴
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $20
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+      <div class="btn-box">
+        <a href="">
+          查看所有产品
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end shop section -->
+
+  
+
+  <!-- offer section -->
+
+ 
+  <!-- end offer section -->
+
+  <!-- blog section -->
+
+
+
+  <!-- end blog section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="heading_container HMax">
+      <h2 id="d">
+      联系我们
+      </h2>
+    </div>
+    <div class="container">
+     
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/ml.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                  
+                    <p>
+                     快点通过下方的联系方式给我们建议吧！
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/ml.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        
+                      </h6>
+                    </div>
+                    <p>
+                      快点通过下方的联系方式给我们建议吧！
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-11 col-lg-10 mx-auto">
+                <div class="box">
+                  <div class="img-box">
+                    <img src="images/ml.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <div class="name">
+                      <h6>
+                        
+                      </h6>
+                    </div>
+                    <p>
+                      快点通过下方的联系方式给我们建议吧！
+                    </p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-container">
+          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_form_social_row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="text" placeholder="留下你的联系方式参与回访">
+              <button>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+
+          <div class="social_box">
+            <a href="">
+              <svg t="1708486308981" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4286" width="32" height="32"><path d="M767.818667 409.173333C867.338667 444.266667 938.666667 539.136 938.666667 650.666667c0 42.709333-10.496 83.978667-30.261334 120.842666-1.792 3.338667-4.992 8.928-9.696 16.96l14.613334 53.557334c6.506667 23.893333-15.402667 45.813333-39.296 39.296l-53.642667-14.634667-6.229333 3.669333A254.933333 254.933333 0 0 1 682.666667 906.666667c-77.994667 0-147.84-34.88-194.805334-89.888a352.608 352.608 0 0 1-56.64 4.554666c-63.338667 0-124.266667-16.853333-177.472-48.298666-1.834667-1.088-6.410667-3.733333-13.632-7.893334l-80.544 21.653334c-23.914667 6.432-45.76-15.573333-39.146666-39.434667l21.792-78.752a961.205333 961.205333 0 0 1-15.904-27.317333A336.384 336.384 0 0 1 85.333333 480c0-188.618667 154.965333-341.333333 345.888-341.333333 159.914667 0 297.984 108.010667 335.818667 259.296 0.949333 3.765333 1.173333 7.552 0.778667 11.2z m-68.106667-13.952C662.88 282.037333 555.178667 202.666667 431.221333 202.666667 275.434667 202.666667 149.333333 326.933333 149.333333 480c0 46.272 11.498667 90.837333 33.194667 130.698667 2.88 5.290667 10.176 17.706667 21.621333 36.746666a32 32 0 0 1 3.413334 25.013334l-10.517334 37.994666 39.232-10.549333a32 32 0 0 1 24.234667 3.146667c14.272 8.192 22.773333 13.098667 25.802667 14.890666A283.882667 283.882667 0 0 0 431.221333 757.333333c6.154667 0 12.288-0.192 18.389334-0.576A255.061333 255.061333 0 0 1 426.666667 650.666667c0-141.386667 114.613333-256 256-256 5.728 0 11.413333 0.192 17.045333 0.554666z m133.706667 397.056a32 32 0 0 1 3.338666-24.725333 996.672 996.672 0 0 0 15.242667-26.293333A190.997333 190.997333 0 0 0 874.666667 650.666667c0-106.037333-85.962667-192-192-192s-192 85.962667-192 192 85.962667 192 192 192a190.933333 190.933333 0 0 0 98.570666-27.2c2.208-1.322667 8.288-4.874667 18.517334-10.837334a32 32 0 0 1 24.522666-3.210666l12.565334 3.424-3.424-12.565334zM330.666667 426.666667a42.666667 42.666667 0 1 1 0-85.333334 42.666667 42.666667 0 0 1 0 85.333334z m192 0a42.666667 42.666667 0 1 1 0-85.333334 42.666667 42.666667 0 0 1 0 85.333334z m85.333333 202.666666a32 32 0 1 1 0-64 32 32 0 0 1 0 64z m149.333333 0a32 32 0 1 1 0-64 32 32 0 0 1 0 64z" fill="#ffffff" p-id="4287"></path></svg>
+            </a>
+            <a href="">
+              <svg t="1708486348198" class="icon" viewBox="0 0 1138 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" width="32" height="32"><path d="M914.432 518.144q27.648 21.504 38.912 51.712t9.216 62.976-14.336 65.536-31.744 59.392q-34.816 48.128-78.848 81.92t-91.136 56.32-94.72 35.328-89.6 18.944-75.264 7.68-51.712 1.536-49.152-2.56-68.096-10.24-78.336-21.504-79.872-36.352-74.24-55.296-59.904-78.848q-16.384-29.696-22.016-63.488t-5.632-86.016q0-22.528 7.68-51.2t27.136-63.488 53.248-75.776 86.016-90.112q51.2-48.128 105.984-85.504t117.248-57.856q28.672-10.24 63.488-11.264t57.344 11.264q10.24 11.264 19.456 23.04t12.288 29.184q3.072 14.336 0.512 27.648t-5.632 26.624-5.12 25.6 2.048 22.528q17.408 2.048 33.792-1.536t31.744-9.216 31.232-11.776 33.28-9.216q27.648-5.12 54.784-4.608t49.152 7.68 36.352 22.016 17.408 38.4q2.048 14.336-2.048 26.624t-8.704 23.04-7.168 22.016 1.536 23.552q3.072 7.168 14.848 13.312t27.136 12.288 32.256 13.312 29.184 16.384zM656.384 836.608q26.624-16.384 53.76-45.056t44.032-64 18.944-75.776-20.48-81.408q-19.456-33.792-47.616-57.344t-62.976-37.376-74.24-19.968-80.384-6.144q-78.848 0-139.776 16.384t-105.472 43.008-72.192 60.416-38.912 68.608q-11.264 33.792-6.656 67.072t20.992 62.976 42.496 53.248 57.856 37.888q58.368 25.6 119.296 32.256t116.224 0.512 100.864-21.504 74.24-33.792zM522.24 513.024q20.48 8.192 38.912 18.432t32.768 27.648q10.24 12.288 17.92 30.72t10.752 39.424 1.536 42.496-9.728 38.912q-8.192 18.432-19.968 37.376t-28.672 35.328-40.448 29.184-57.344 18.944q-61.44 11.264-117.76-11.264t-88.064-74.752q-12.288-39.936-13.312-70.656t16.384-66.56q13.312-27.648 40.448-51.712t62.464-38.912 75.264-17.408 78.848 12.8zM359.424 764.928q37.888 3.072 57.856-18.432t21.504-48.128-15.36-47.616-52.736-16.896q-27.648 3.072-43.008 23.552t-17.408 43.52 9.728 42.496 39.424 21.504zM778.24 6.144q74.752 0 139.776 19.968t113.664 57.856 76.288 92.16 27.648 122.88q0 33.792-16.384 50.688t-35.328 17.408-35.328-14.336-16.384-45.568q0-40.96-22.528-77.824t-59.392-64.512-84.48-43.52-96.768-15.872q-31.744 0-47.104-15.36t-14.336-34.304 18.944-34.304 51.712-15.36zM778.24 169.984q95.232 0 144.384 48.64t49.152 146.944q0 30.72-10.24 43.52t-22.528 11.264-22.528-14.848-10.24-35.84q0-60.416-34.816-96.256t-93.184-35.84q-19.456 0-28.672-10.752t-9.216-23.04 9.728-23.04 28.16-10.752z" p-id="5405" fill="#ffffff"></path></svg>
+            </a>
+            <a href="">
+              <svg t="1708486668603" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7119" width="32" height="32"><path d="M87.844571 423.533714H16.457143C22.674286 516.388571 0 586.971429 0 586.971429l38.4 69.741714c50.285714-21.467429 49.481143-233.142857 49.481143-233.142857z m159.707429 0s-1.243429 211.675429 49.517714 233.142857l38.4-69.741714s-22.674286-70.582857-16.530285-163.401143H247.552z m-115.163429 212.48H87.844571c0 52.845714 44.141714 57.380571 44.141715 57.380572h22.674285c45.385143 0 47.469714-51.968 47.469715-51.968V330.715429H132.388571v305.334857h0.036572z m239.762286-148.48h46.189714l-35.474285 72.155429s-20.626286 40.448 12.361143 42.057143h77.165714l30.939428-55.661715h-38.4c-4.900571 0-8.228571-5.376-5.741714-9.508571l57.344-112.64h-66.852571l-4.096 8.265143h-4.132572c-4.973714 0-8.265143-5.339429-5.778285-9.508572l47.872-91.977142h-66.852572l-56.941714 114.688s-20.626286 40.886857 12.397714 42.093714z m9.874286 136.521143s-8.630857 0.841143-14.006857-4.973714l-34.669715 66.486857s5.778286 7.826286 17.334858 7.826286h85.796571l36.754286-69.339429h-91.209143z" p-id="7120" fill="#ffffff"></path><path d="M640.731429 423.533714h44.141714v-70.948571h-157.622857v70.948571h44.982857v202.971429h-66.011429l-33.426285 66.889143h234.788571V626.468571H640.731429v-202.971428z m315.611428 52.406857h-8.228571v-45.787428a77.458286 77.458286 0 0 0-77.531429-77.568h-26.843428v-21.869714h-68.022858v21.467428h-42.971428v69.302857h42.934857v54.052572h-68.096v69.705143h68.132571v148.114285h68.022858v-148.114285h93.622857c9.142857 0 16.566857 7.424 16.566857 16.493714v73.069714h-64.768a58.514286 58.514286 0 0 0 58.587428 58.587429h17.737143A58.587429 58.587429 0 0 0 1024 634.806857v-91.611428a67.876571 67.876571 0 0 0-67.657143-67.254858z m-112.64-54.052571h24.393143a10.605714 10.605714 0 0 1 10.715429 10.715429v43.337142h-35.108572v-54.052571z" p-id="7121" fill="#ffffff"></path><path d="M1022.390857 386.413714a34.011429 34.011429 0 0 0-33.828571-33.828571 34.011429 34.011429 0 0 0-33.828572 33.828571v33.828572h33.828572a33.682286 33.682286 0 0 0 33.828571-33.828572z" p-id="7122" fill="#ffffff"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links">
+            <h4>
+              菜单
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">关于我们</a>
+              <a href="about.html">角色介绍</a>
+              <a href="shop.html">最新产品</a>
+              <a href="blog.html">最新活动</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_insta">
+            <h4>
+              社交媒体
+            </h4>
+            <div class="insta_box">
+              <div class="img-box yImg">
+                <img src="images/T1.jpg" alt="">
+              </div>
+              <p>
+                小红书@暹罗厘普
+              </p>
+            </div>
+            <div class="insta_box">
+              <div class="img-box yImg">
+                <img src="images/T2.jpg" alt="">
+              </div>
+              <p>
+                微博@暹罗厘普
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              特别鸣谢
+            </h4>
+            <p class="mb-0">
+                萝卜田中<br>
+                比格多栋<br>
+                兔子秀珍<br>
+                鹈鹕小河<br>
+                暹罗厘普<br>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4 id="e">
+            联系方式
+          </h4>
+          <div class="info_contact">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                中国香港
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                +852 5641 3000
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope"></i>
+              <span>
+                xianluolipu@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> 
+        <a href="https://html.design/"></a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
